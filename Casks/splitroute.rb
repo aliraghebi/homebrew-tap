@@ -1,9 +1,9 @@
 # Written by the splitroute release workflow (scripts/update-cask.sh).
 cask "splitroute" do
-  version "0.3.0"
-  sha256 "a7a5ea83d1aafcd9a05b99bfd1612181168f86eddfb2b56668164e383229ebb9"
+  version "0.4.0"
+  sha256 "72754f282fdecbb5f0eeaaacc479045457338f01b1feb3324edbba068202a1a8"
 
-  url "https://github.com/aliraghebi/splitroute/releases/download/v#{version}/Splitroute_#{version}_macos.zip"
+  url "https://github.com/aliraghebi/splitroute/releases/download/v#{version}/Splitroute_#{version}_macos.dmg"
   name "splitroute"
   desc "Route chosen IP lists outside a VPN (direct) or drop them (block)"
   homepage "https://github.com/aliraghebi/splitroute"
